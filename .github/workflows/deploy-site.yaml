@@ -1,7 +1,10 @@
 name: Run Build
 
 # Run action on pull request event
-on: [pull_request]
+on:
+  push:
+    branches:
+    - main
 
 
 jobs:
