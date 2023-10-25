@@ -1,0 +1,78 @@
+def agrupar_e_ordenar_por_palavra(lista):
+    grupos = {}
+    for item in lista:
+        palavras = item[0].split('`')
+        palavra_chave = palavras[1]
+        if palavra_chave not in grupos:
+            grupos[palavra_chave] = []
+        grupos[palavra_chave].append(item)
+    
+    for chave in grupos:
+        grupos[chave].sort(key=lambda x: x[0])  # Ordena os itens por 'data.`palavra`'
+    
+    grupos_ordenados = dict(sorted(grupos.items()))  # Ordena os grupos em ordem alfabética
+    return grupos_ordenados
+
+def comparar_listas(lista1, lista2):
+    grupos1 = agrupar_e_ordenar_por_palavra(lista1)
+    grupos2 = agrupar_e_ordenar_por_palavra(lista2)
+
+    for chave in grupos1:
+        grupo1 = grupos1[chave]
+        grupo2 = grupos2.get(chave, [])
+        diferencas = []
+
+        for item in grupo1:
+            if item not in grupo2:
+                diferencas.append(item)
+
+        for item in grupo2:
+            if item not in grupo1:
+                diferencas.append(item)
+
+        print(f"Grupo '{chave}' - Lista 1:")
+        for item in grupo1:
+            print(item)
+        print(f"Grupo '{chave}' - Lista 2:")
+        for item in grupo2:
+            print(item)
+
+        if diferencas:
+            print(f"Diferenças no grupo '{chave}':")
+            for diferenca in diferencas:
+                print(diferenca)
+            print()
+
+    for chave in grupos2:
+        if chave not in grupos1:
+            grupo2 = grupos2[chave]
+            print(f"Grupo '{chave}' - Lista 2:")
+            for item in grupo2:
+                print(item)
+            print(f"Diferenças no grupo '{chave}':")
+            for diferenca in grupo2:
+                print(diferenca)
+            print()
+
+# Suas listas
+lista1 = [
+    ('data.`bicicleta`.`outro`.`bala`', 'string', 'empresa.bicicleta.bala', 'string'),
+    ('data.`empresa`.`outro`.`conteudo`', 'string', 'empresa.outro.conteudo', 'string'),
+    ('data.`empresa`.`outro`.`conteudo`.`aviao`', 'string', 'empresa.outro.conteudo.aviao', 'string'),
+    ('data.`empresa`.`outro`.`teste`', 'string', 'empresa.outro.teste', 'string'),
+    ('data.`outro`', 'string', 'outro', 'string'),
+    ('data.`empresa`.`outro`.`conteudo`.`carro`', 'string', 'empresa.outro.conteudo.carro', 'string'),
+    ('data.`geografia`', 'string', 'geografia', 'string'),
+]
+
+lista2 = [
+    ('data.`empresa`.`outro`.`conteudo`', 'string', 'empresa.outro.conteudo', 'array'),
+    ('data.`geografia`.`payload`.`metadata`', 'string', 'geografia.payload.metadata', 'string'),
+    ('data.`empresa`.`outro`', 'string', 'empresa.outro', 'string'),
+    ('data.`empresa`.`outro`.`conteudo`.`carro`', 'string', 'empresa.outro.conteudo.carro', 'string'),
+    ('data.`bicicleta`.`outro`.`chiclete`', 'string', 'empresa.bicicleta.chiclete', 'string'),
+    ('data.`empresa`', 'string', 'empresa', 'string'),
+]
+
+# Comparar as listas
+comparar_listas(lista1, lista2)
