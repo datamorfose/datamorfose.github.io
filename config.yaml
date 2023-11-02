@@ -27,7 +27,7 @@ languages:
     weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
+DefaultContentLanguage: en
 
 # Allow raw html in markdown file
 markup:
@@ -68,6 +68,7 @@ params:
   gitBranch: main
 
   # Configure the number of section title visible in the top navbar
+   # Configure the number of section title visible in the top navbar
   topNavbar:
     maxVisibleSections: 5
 
@@ -87,12 +88,12 @@ params:
       enable: true
       # Share post on different social media
       shareButtons:
-        #facebook: true
-        #twitter: true
-        #linkedin: true
-        #reddit: true
-        #whatsapp: true
-        #email: true
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
+        email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -100,6 +101,9 @@ params:
 
     # Enable & configure "Notes" features
     notes:
+      enable: true
+
+    teste:
       enable: true
 
     # Enable comment feature. There, should be only one of them.
@@ -138,7 +142,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: false
+      enabled: true
       services:
         # Google Analytics
         google:
@@ -180,7 +184,7 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: false
+      enable: true
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
@@ -275,7 +279,7 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: false
+      enable: true
       provider: mailchimp
       mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
