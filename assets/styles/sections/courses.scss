@@ -3,15 +3,15 @@
     .card-header {
       background-color: get-light-color('bg-card');
       padding: 0.7rem;
-      padding-bottom: 0rem;
+      padding-bottom: 0.7rem;
       text-decoration: none;
 
       .card-img-xs {
-        margin-right: 0.5rem;
+        margin-right: 1.5rem;
       }
       .sub-title {
         color: get-light-color('muted-text-color');
-        margin-top: 0.4rem;
+        margin-top: 1.4rem;
 
         span {
           &:nth-child(1) {
@@ -25,12 +25,12 @@
     }
 
     .card-body {
-      padding: 0.7rem;
+      padding: 5.7rem;
     }
   }
 
   .filtr-courses {
-    padding: 1rem !important;
+    padding: 10px !important;
   }
 
   .course-card-footer {
@@ -38,7 +38,7 @@
   }
 
   .course-tags-holder {
-    width: 70%;
+    width: 80%;
   }
 
   .course-btn-holder {
@@ -60,9 +60,10 @@
 
     .container {
       max-width: 100%;
+      padding: 10px !important;
     }
     .filtr-courses {
-      padding: 0;
+      padding: 10px !important;
     }
     .filtr-item {
       flex: 50%;
