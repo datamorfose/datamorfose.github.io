@@ -1,0 +1,105 @@
+# section information
+section:
+  name: Cursos
+  id: courses
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  template: sections/courses.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Acadêmico
+  filter: "academic"
+- name: Hobbies
+  filter: "hobby"
+- name: Hobbies1
+  filter: "hobby1" 
+- name: Hobbie2s
+  filter: "hobby2" 
+- name: Hobbies3
+  filter: "hobby3" 
+- name: Hobbies4
+  filter: "hobby4" 
+- name: Hobbies5
+  filter: "hobby5" 
+- name: Hobbies6
+  filter: "hobby6"  
+- name: Hobbies6
+  filter: "hobby6" 
+  
+
+   
+
+# your courses
+courses:
+- name: Kubernetes
+  role: Contributor
+  timeline: "March 2018 - Present"
+  url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Production-Grade Container Scheduling and Management.
+  tags: ["professional", "kubernetes", "cloud"]
+
+- name: Tensorflow
+  logo: /images/sections/courses/tensorflow.png
+  role: Developer
+  timeline: "Jun 2018 - Present"
+  repo: https://github.com/tensorflow/tensorflow
+  url: ""
+  summary: An Open Source Machine Learning Framework for Everyone.
+  tags: ["professional", "machine-learning"]
+
+- name: A sample academic paper
+  role: Team Lead
+  timeline: "Jan 2017 - Nov 2017"
+  url: "https://www.example.com"
+  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+  tags: ["academic","iot"]
+
+- name: Nocode
+  logo: /images/sections/projects/no-code.png
+  role: Nothing
+  timeline: "Oct 2019 - Dec 2019"
+  repo: https://github.com/kelseyhightower/nocode
+  #url: ""
+  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+  tags: ["hobby", "fun"]
+
+- name: Toha
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]
+
+
+- name: Toha1
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]
+
+- name: Toha2
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]
+
+- name: Toha3
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]

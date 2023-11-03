@@ -1,18 +1,18 @@
 ---
-title: "ভূমিকা"
+title: "Introdução"
 date: 2020-06-08T08:06:25+06:00
 description: Introduction to Sample Post
 menu:
   sidebar:
-    name: ভূমিকা
+    name: Introdução
     identifier: introduction
     weight: 10
-tags: ["বেসিক", "বহুভাষিক"]
-categories: ["বেসিক"]
+tags: ["Basic", "Multi-lingual"]
+categories: ["Basic"]
 ---
 
-স্বাগতম! এটি একটি ভূমিকা সূচক পোস্ট। এই পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
+Greeting! This is an introduction post. This post tests the followings:
 
-- হেরো ছবিটি পোস্ট এর সাথে একই পথে আছে।
-- এই পোস্টটি সাইডবারের সবার প্রথমে থাকা উচিত।
-- পোস্টের লেখক `author.yaml` ফাইল এ যাকে উল্লেখ করা হয়েছে তিনিই থাকবেন।
+- Hero image is in the same directory as the post.
+- This post should be at top of the sidebar.
+- Post author should be the same as specified in `author.yaml` file.

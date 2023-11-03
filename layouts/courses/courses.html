@@ -10,6 +10,7 @@
     {{ $siteDescription = $siteConfig.description }}
     {{ end }}
     {{ end }}
+
     <meta name="description" content="{{ $siteDescription }}" />
 
     <!-- import common headers -->
@@ -36,7 +37,8 @@
     <!--- NAVBAR ------------------------->
     {{- partial "navigators/navbar.html" . -}}
 
-  
+
+
 
     <!--- ADD OPTIONAL SECTIONS ----------->
     {{ $sections:= site.Data.sections }}
