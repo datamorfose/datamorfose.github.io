@@ -1,5 +1,5 @@
 baseURL: https://datamorfose.github.io
-languageCode: pt-br
+#languageCode: pt-BR
 title: "Datamorfose"
 
 # Use Hugo modules to add theme
@@ -16,18 +16,30 @@ module:
   - source: ./node_modules/katex/dist/fonts
     target: static/fonts
 
+# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
+
+defaultContentLanguage: pt-br
+#defaultContentLanguageInSubdir: true
+
+
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  #en:
-  #  languageName: English
-  #  weight: 2
+  en:
+    languageName: English
+    weight: 1
+    #contentDir: data/en
+    disabled: false
+    languageCode: en-US
   pt-br:
     languageName: Portugues
-    weight: 1
+    weight: 2
+    #contentDir: data/pt-br
+    disabled: false
+    languageCode: pt-BR
+    params:
+      color: blue
 
-# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-DefaultContentLanguage: pt-br
 
 # Allow raw html in markdown file
 markup:
@@ -73,7 +85,7 @@ params:
   # Configure the number of section title visible in the top navbar
    # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 6
+    maxVisibleSections: 4
 
   # Configure various features of this theme
   features:
@@ -189,9 +201,9 @@ params:
     flags:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      flagOverwrites:
+         - languageCode: pt-BR
+           countryCode: br
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
