@@ -1,0 +1,10 @@
+<div class="courses-card {{if .Get "size" }}{{.Get "size"}}-courses{{end}}">
+    <div class="item">
+        <h5 class="courses-title"><span>{{ .Get "title" }}</span></h5>
+        {{ range $idx, $val := split .Inner "---" }}
+            <div class="card">
+                <div class="card-body">{{ $val | markdownify }}</div>
+            </div>
+        {{ end }}
+    </div>
+</div>

@@ -28,7 +28,8 @@ a {
 
 a.header-anchor {
   text-decoration: none;
-  color: get-light-color('heading-color');
+  //color: get-light-color('heading-color');
+  color: #cf6f01;
   i,
   svg {
     font-size: 10pt;

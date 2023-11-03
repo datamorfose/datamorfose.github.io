@@ -1,4 +1,5 @@
 import './note'
+import './courses'
 import './search'
 import './single'
 import './home'
