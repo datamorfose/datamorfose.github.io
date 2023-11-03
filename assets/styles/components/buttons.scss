@@ -2,6 +2,7 @@
   background-color: get-light-color('text-color') !important;
   border-color: get-light-color('text-color') !important;
   color: get-light-color('text-over-accent-color') !important;
+  margin-bottom: 4px;
   @include transition();
 
   &:hover,

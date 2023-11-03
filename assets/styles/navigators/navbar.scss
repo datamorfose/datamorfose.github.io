@@ -16,7 +16,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 50px;
+  height: 60px;
   z-index: 99999;
   margin: 0px;
   padding-top: 0.4rem;
@@ -32,7 +32,7 @@
     
     font-weight: 600;
     color: transparent;
-    background: linear-gradient(90deg, #FFA500, #800080);
+    background: linear-gradient(90deg, #FFA500, #440244);
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 24px;
@@ -140,7 +140,7 @@
       //color: get-light-color('inverse-text-color');
       //font-weight: 600;
       color: transparent;
-      background: linear-gradient(90deg,  #800080, #FFA500);
+      background: linear-gradient(90deg, #440244, #FFA500);
       -webkit-background-clip: text;
       background-clip: text;
       font-size: 24px;
@@ -240,7 +240,7 @@ html[data-theme='dark'] {
     .navbar-brand {
       //color: get-dark-color('heading-color');
       color: transparent;
-      background: linear-gradient(90deg, #FFA500, #800080);
+      background: linear-gradient(90deg, #FFA500, #440244);
       -webkit-background-clip: text;
       background-clip: text;
       font-size: 24px;
@@ -283,7 +283,7 @@ html[data-theme='dark'] {
         li {
           a {
             //color: get-dark-color('heading-color');
-            color: #180124;
+            color: #ab86be;
           }
         }
         .navbar-nav {
@@ -301,7 +301,7 @@ html[data-theme='dark'] {
       .navbar-brand {
         //color: get-dark-color('text-color');
         color: transparent;
-        background: linear-gradient(90deg, #800080, #FFA500);
+        background: linear-gradient(90deg, #440244, #FFA500);
         -webkit-background-clip: text;
         background-clip: text;
         font-size: 24px;
