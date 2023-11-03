@@ -71,6 +71,7 @@ mark {
 @include media('<=small') {
   .skills-section,
   .projects-section,
+  .courses-section,
   .publications-section {
     .container {
       padding-left: 0.3rem;
@@ -85,6 +86,7 @@ mark {
 
   .skills-section,
   .projects-section,
+  .courses-section,
   .recent-posts-section,
   .achievements-section,
   .publications-section {

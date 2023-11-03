@@ -1,19 +1,19 @@
 .footer {
-  color: get-light-color('muted-text-color') !important;
+  color: get-light-color('muted-text-color-footer') !important;
   background-color: get-light-color('footer-color');
   position: relative;
   z-index: 9999;
 
   h5 {
-    color: get-light-color('inverse-text-color');
+    color: get-light-color('inverse-text-color-footer');
   }
 
   a {
-    color: get-light-color('muted-text-color');
+    color: get-light-color('muted-text-color-footer');
     @include transition();
     &:hover {
       margin-left: 5px;
-      text-decoration: get-light-color('muted-text-color') underline;
+      text-decoration: get-light-color('muted-text-color-footer') underline;
       @include transition();
     }
   }
@@ -28,30 +28,30 @@
   }
 
   hr {
-    background-color: get-light-color('muted-text-color');
+    background-color: get-light-color('muted-text-color-footer');
   }
 
   p:first-child {
-    color: get-light-color('inverse-text-color');
+    color: get-light-color('inverse-text-color-footer');
   }
 
   input {
-    background-color: get-light-color('inverse-text-color');
+    background-color: get-light-color('inverse-text-color-footer');
     &:focus {
       background-color: get-light-color('bg-secondary');
     }
   }
 
   #disclaimer {
-    color: get-light-color('muted-text-color') !important;
+    color: get-light-color('muted-text-color-footer') !important;
     text-align: justify;
     & > strong {
-      color: get-light-color('inverse-text-color') !important;
+      color: get-light-color('inverse-text-color-footer') !important;
     }
   }
 
   #theme {
-    color: get-light-color('inverse-text-color');
+    color: get-light-color('inverse-text-color-footer');
     img {
       width: 32px;
       display: inline-block;
@@ -70,25 +70,29 @@
 
 html[data-theme='dark'] {
   .footer {
-    color: get-dark-color('muted-text-color') !important;
+    color: get-dark-color('muted-text-color-footer') !important;
     background-color: get-dark-color('footer-color');
     h5 {
-      color: get-dark-color('heading-color');
+      
+      color: get-dark-color('inverse-text-color-footer');
     }
 
     a {
-      color: get-dark-color('muted-text-color');
+      color: get-dark-color('muted-text-color-footer');
       &:hover {
-        text-decoration: get-dark-color('muted-text-color') underline;
+        text-decoration: get-dark-color('muted-text-color-footer') underline;
       }
     }
+    li {
+      color: get-dark-color('text-color-footer');
 
+    }
     hr {
-      background-color: get-dark-color('muted-text-color');
+      background-color: get-dark-color('muted-text-color-footer');
     }
 
     p:first-child {
-      color: get-dark-color('muted-text-color');
+      color: get-dark-color('muted-text-color-footer');
     }
 
     input {
@@ -99,7 +103,7 @@ html[data-theme='dark'] {
     }
 
     #disclaimer {
-      color: get-dark-color('muted-text-color') !important;
+      color: get-dark-color('muted-text-color-footer') !important;
       & > strong {
         color: get-dark-color('text-color') !important;
       }

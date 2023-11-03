@@ -1,0 +1,59 @@
+<div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, {{ delimit  .tags ","}}'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="{{ if .repo }}{{ .repo }}{{ else if .url }}{{ .url }}{{ else }}javascript:void(0){{ end }}" {{ if or .repo .url }}target="_blank" rel="noopener"{{ end }}>
+        <div>
+          <div class="d-flex">
+            {{ if .logo }}
+
+            {{ $logoImage:= resources.Get .logo}}
+            {{ if $logoImage }}
+            {{/*  svg don't support "Fit" operation   */}}
+            {{ if ne $logoImage.MediaType.SubType "svg" }}
+              {{ $logoImage = $logoImage.Fit "24x24" }}
+            {{ end }}
+
+            <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
+            {{ end }}
+            {{ end }}
+            <h5 class="card-title mb-0">{{ .name }}</h5>
+          </div>
+          <div class="sub-title">
+            <span>{{ .role }}</span>
+            <span>{{ .timeline }}</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>{{ .summary | markdownify }}</p>
+        <!-- Display courses card technology tags -->
+        <div class="courses-card-footer">
+          {{ if .tags }}
+            <div class="courses-tags-holder">
+              {{ range $index,$tag:= .tags }}
+                  <span class="badge btn-info">
+                    {{ $tag }}
+                  </span>
+              {{ end }}
+            </div>
+          {{ end }}
+          <div class="courses-btn-holder">
+            {{if .url }}
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="{{ .url }}"
+                target="#"
+                >{{ i18n "courses_details" }}</a
+              >
+            </span>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

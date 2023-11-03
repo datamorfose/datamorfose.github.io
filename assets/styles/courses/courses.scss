@@ -75,6 +75,7 @@
   }
 
   @keyframes bounce {
+
     0%,
     20%,
     50%,
@@ -82,9 +83,11 @@
     100% {
       transform: translateY(0);
     }
+
     40% {
       transform: translateY(-30px);
     }
+
     60% {
       transform: translateY(-15px);
     }
@@ -112,6 +115,7 @@
 html[data-theme='dark'] {
   .home {
     color: get-dark-color('text-over-accent-color');
+
     img {
       background-color: get-dark-color('bg-secondary');
     }
@@ -124,6 +128,7 @@ html[data-theme='dark'] {
     .typing-carousel {
       color: get-dark-color('text-over-accent-color');
     }
+
     .arrow {
       color: get-dark-color('text-over-accent-color');
     }

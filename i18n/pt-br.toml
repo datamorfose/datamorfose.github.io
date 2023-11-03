@@ -107,6 +107,12 @@ other = "Star"
 [project_details]
 other = "Detalhes"
 
+[courses_star]
+other = "Star"
+
+[courses_details]
+other = "Detalhes"
+
 [err_404]
 other = "A página que você está procurando ainda não está aqui."
 
@@ -118,6 +124,9 @@ other = "Ver Certificado"
 
 [notes]
 other = "Notas"
+
+[courses]
+other = "Cursos"
 
 [disclaimer_text]
 other = "Nota legal"

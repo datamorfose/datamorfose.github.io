@@ -5,6 +5,11 @@
     {{ $addNavbarSeparator = true }}
 {{ end }}
 
+{{/* If "courses" feature is enabled, then add navbar separator */}}
+{{ if site.Params.features.courses.enable }}
+{{ $addNavbarSeparator = true }}
+{{ end }}
+
 {{/*  If "notes" feature is enabled, then add navbar separator  */}}
 {{ if site.Params.features.notes.enable }}
     {{ $addNavbarSeparator = true }}
