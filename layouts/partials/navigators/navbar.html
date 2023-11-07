@@ -100,7 +100,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 {{ $sectionCount := 1 }}
                 {{ range sort $sections "section.weight" }}
-                  {{ if and (.section.enable) (.section.showOnNavbar) }}
+                  {{ if and (.section.enable) (.section.showOnNavbar) (ne .section.id "courses")}}
                     {{ $sectionCount  = add $sectionCount 1}}
                     {{ if gt $sectionCount $maxVisibleSections }}
                       <a class="dropdown-item" href="{{ partial "helpers/get-section-url.html" . }}">{{ .section.name }}</a>
