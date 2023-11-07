@@ -97,7 +97,7 @@
       @include transition();
 
       a {
-        color: get-light-color('heading-color') !important;
+        color: get-light-color('accent-color') !important;
 
         &:hover {
           @include nav-item-hover-effect();
