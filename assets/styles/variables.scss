@@ -24,11 +24,11 @@ $box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);
 $themes: (
   'light': (
     // cyan 600
-    'accent-color': #692f92,
+    'accent-color': #E87E56,
     // cyan 500
     'hover-over-accent-color': #FF8B3C,
     // zinc 200
-    'text-over-accent-color': #e7e5e4,
+    'text-over-accent-color': #2b0f02,
     // slate 50
     'bg-primary': #fcfbf8,
     'bg-primary-courses': #FFAC7A,
@@ -37,11 +37,11 @@ $themes: (
     // slate 200
     'bg-secondary': #ffeadf,
     'bg-secondary-courses': #FFAC7A,
-    'bg-card': #fff,er
+    'bg-card': #fff,
     // slate 800
-    'heading-color': #180124,
+    'heading-color': #ec03ba,
     // slate 700
-    'text-color': #180124,
+    'text-color': #2b0f02,
     // slate 300
     'inverse-text-color': #cbd5e1,
     'inverse-text-color-footer': #180124,
@@ -50,7 +50,7 @@ $themes: (
     'muted-text-color': #795097,
     'muted-text-color-footer': #200235,
     // red 600
-    'inline-code-color': #dc26c4,
+    'inline-code-color': #E87E56,
     // amber 200
     'highlight-color': #fde68a,
     // slate 900
@@ -58,23 +58,23 @@ $themes: (
   ),
   'dark': (
     // cyan 600
-    'accent-color': #FF8B3C,
+    'accent-color': #CB8870,
     // cyan 500
-    'hover-over-accent-color': #B5B5B5,
+    'hover-over-accent-color': #dba48f,
     // zinc 200
-    'text-over-accent-color': #e4e7e5,
+    'text-over-accent-color': #ffffff,
     // gray-800
-    'bg-primary': #180124,
-    'bg-primary-courses': #FFAC7A,
+    'bg-primary': #352b23,
+    'bg-primary-courses': #CB8870,
     // slate 900
     'bg-primary-inverse': #e2ddd4,
     // gray 900
-    'bg-secondary': #43354d,
+    'bg-secondary': #29201a,
     'bg-secondary-courses': #FFAC7A,
     // slate 800
-    'bg-card': #0f011d,
+    'bg-card': #221b15,
     // slate 100
-    'heading-color': #f2f9f1,
+    'heading-color': #f7d1c2,
     // slate 300
     'text-color': #e1d9cb,
     'text-color-footer': #cbd5e1,
@@ -85,7 +85,7 @@ $themes: (
     'muted-text-color': #CE9D92,
     'muted-text-color-footer': #200235,
     // red 600
-    'inline-code-color': #26dc4e,
+    'inline-code-color': #E87E56,
     // amber 200
     'highlight-color': #fde68a,
     // slate 900
