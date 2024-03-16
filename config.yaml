@@ -75,7 +75,7 @@ params:
     inverted: /images/site/datamorfose.png
     favicon: /images/site/datamorfose.png
 
-    #d:\ONEDRIVE\EDUCACAO\datamorfose\versao2\logoyoutube.png
+   
 
   # GitHub repo of your site
   gitRepo: https://github.com/datamorfose/datamorfose.github.io
@@ -85,7 +85,7 @@ params:
   # Configure the number of section title visible in the top navbar
    # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 4
+    maxVisibleSections: 3
 
   # Configure various features of this theme
   features:
