@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('search-results')?.append(node)
   }
 
-  function executeSearch(searchQuery) {
+  function executeSearch (searchQuery) {
     const url = window.location.href.split('/search/')[0] + '/index.json'
 
     fetch(url).then(response => response.json()).then(function (data) {
@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', () => {
     })
   }
 
-  function populateResults(results) {
+  function populateResults (results) {
     results.forEach(function (value, key) {
       const contents = value.item.contents
       let snippet = ''
@@ -79,13 +79,6 @@ window.addEventListener('DOMContentLoaded', () => {
       // pull template from hugo template definition
       const templateDefinition = document.getElementById('search-result-template').innerHTML
       // replace values
-      function adaptTags() {
-        const tags = value.item.tags;
-        let string = '';
-        if (tags) tags.forEach((t) => { string += '<li class="rounded"><a href="/tags/' + t.toLowerCase() + '/" class="btn btn-sm btn-info">' + t + "</a></li>" });
-        return string;
-      }
-
       const output = render(templateDefinition, {
         key,
         title: value.item.title,
@@ -93,7 +86,7 @@ window.addEventListener('DOMContentLoaded', () => {
         date: value.item.date,
         summary: value.item.summary,
         link: value.item.permalink,
-        tags: adaptTags(),
+        tags: value.item.tags,
         categories: value.item.categories,
         snippet
       })
@@ -109,11 +102,11 @@ window.addEventListener('DOMContentLoaded', () => {
     })
   }
 
-  function param(name) {
+  function param (name) {
     return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ')
   }
 
-  function render(templateString, data) {
+  function render (templateString, data) {
     let conditionalMatches, copy
     const conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*}/g
     // since loop below depends on re.lastInxdex, we use a copy to capture any manipulations whilst inside the loop
