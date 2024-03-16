@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
+<html lang="{{ .Site.Language.Lang }}"
 
 <head>
   <title>{{- .Site.Title -}}</title>
@@ -12,6 +12,7 @@
   {{ end }}
   <meta name="description" content="{{ $siteDescription }}" />
 
+  <meta name="google-adsense-account" content="ca-pub-4972359728617425">
   <!-- import common headers -->
   {{- partial "header.html" . -}}
   {{- partial "opengraph.html" . -}}
@@ -29,7 +30,8 @@
     }
     document.documentElement.setAttribute('data-theme', theme);
   </script>
-  </head>
+
+    </head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
   
     <!--- NAVBAR ------------------------->
@@ -77,4 +79,8 @@
     
     </body>
     
-    </html>
+    </html>S -------->
+    {{- partial "misc/support.html" . -}}
+
+  </body>
+</html>
