@@ -1,5 +1,5 @@
 # Copyright Notice
-copyright: © 2023 Copyright.
+copyright: © 2024 Copyright.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: "testdde"
@@ -10,8 +10,8 @@ description: জন ডো এর বাক্তিগত পোর্টফো
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-- name: Sobre
-  url: https://toha-guides.netlify.app/posts/
+- name: Medium
+  url: https://medium.com/@datamorfose
 
 # Specify OpenGraph Headers
 openGraph:
