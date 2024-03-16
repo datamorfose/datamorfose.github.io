@@ -1,7 +1,7 @@
 .sidebar-section {
   order: 1;
-  //flex: 20%;
-  //max-width: 20%;
+  flex: 20%;
+  max-width: 20%;
   @include transition();
 
   .sidebar-holder {
@@ -39,7 +39,7 @@
 
       #list-heading {
         padding-left: 0px !important;
-      } 
+      }
 
       .sidebar-tree {
         padding-left: 1rem;
@@ -130,8 +130,8 @@
   }
 
   @include media('<=ultra-large') {
-    //flex: 25%;
-    //max-width: 25%;
+    flex: 15%;
+    max-width: 15%;
 
     .sidebar-holder {
       max-width: 100%;
@@ -151,8 +151,8 @@
   }
 
   @include media('<very-large') {
-    //flex: 0%;
-    //max-width: 0%;
+    flex: 0%;
+    max-width: 0%;
     min-height: 100vh;
     @include transition();
 
@@ -165,16 +165,16 @@
     }
 
     &.expanded {
-      //flex: 30%;
-      //max-width: 30%;
+      flex: 30%;
+      max-width: 30%;
       margin-right: 0.5rem;
       @include transition();
     }
   }
 
   @include media('<=medium') {
-    //flex: 0%;
-   // max-width: 0%;
+    flex: 0%;
+    max-width: 0%;
     min-height: 100vh;
     @include transition();
 
@@ -185,8 +185,8 @@
     }
 
     &.expanded {
-      //flex: 40%;
-      //max-width: 40%;
+      flex: 40%;
+      max-width: 40%;
       margin-right: 0.5rem;
       @include transition();
     }
@@ -231,9 +231,9 @@
       position: relative;
       height: -moz-fit-content;
       height: fit-content;
-      //flex: none;
+      flex: none;
       max-height: 300vh;
-      //max-width: 100%;
+      max-width: 100%;
       @include transition();
 
       .sidebar-holder {

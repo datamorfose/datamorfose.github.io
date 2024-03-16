@@ -13,7 +13,7 @@ menu:
 {{< note title="Variable" >}}
 
 ```bash
-NAME="Datamorfose"
+NAME="John"
 echo $NAME
 echo "$NAME"
 echo "${NAME}
