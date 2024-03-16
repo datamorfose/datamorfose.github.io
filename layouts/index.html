@@ -11,8 +11,8 @@
     {{ end }}
   {{ end }}
   <meta name="description" content="{{ $siteDescription }}" />
-
   <meta name="google-adsense-account" content="ca-pub-4972359728617425">
+  
   <!-- import common headers -->
   {{- partial "header.html" . -}}
   {{- partial "opengraph.html" . -}}
@@ -30,8 +30,7 @@
     }
     document.documentElement.setAttribute('data-theme', theme);
   </script>
-
-    </head>
+  </head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
   
     <!--- NAVBAR ------------------------->
@@ -79,7 +78,12 @@
     
     </body>
     
-    </html>S -------->
+    </html> -------->
+    {{- partial "misc/support.html" . -}}
+
+  </body>
+</html>
+ -------->
     {{- partial "misc/support.html" . -}}
 
   </body>
