@@ -8,7 +8,7 @@ menu:
     identifier: aws-dea-services-emr
     parent: aws-dea-services
     weight: 12
-hero: images/github.jpg
+hero: images/emr.png
 tags: ["Markdown","Content Organization","Multi-lingual"]
 categories: ["Basic"]
 ---
