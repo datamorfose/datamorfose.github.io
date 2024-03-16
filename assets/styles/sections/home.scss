@@ -10,11 +10,12 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    background-attachment: fixed;
-    background-position: center;
-    transform: scale(3.1);
-    filter: blur(10px);
-    background-size: cover;
+    //background-attachment: fixed;
+    background-position: bottom;
+    transform: scale(1.1) ;
+    filter: blur(0px) ;
+    background-size: auto;
+    opacity: 0.3;
   }
 
   .arrow-center {
@@ -52,11 +53,21 @@
   .greeting,
   .greeting-subtitle {
     color: get-light-color('text-over-accent-color');
+    /* background-color: #971b1b;
+      /* Cor de fundo desejada, substitua pelo valor desejado */
+    padding: 10px;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    
+    
   }
 
   .typing-carousel {
     font-size: 14pt;
     color: get-light-color('text-over-accent-color');
+    display: inline-block;
+    //background-color: #123456;
   }
 
   #typing-carousel-data {
@@ -115,6 +126,12 @@ html[data-theme='dark'] {
     img {
       background-color: get-dark-color('bg-secondary');
     }
+    .background {
+        background-position: bottom;
+        transform: scale(1.1) scaleY(-1);
+       
+    }
+    
 
     .greeting,
     .greeting-subtitle {
