@@ -43,12 +43,11 @@
 
 {{/* resize the src image to the given sizes */}}
 
-{{ if $src }}
-  {{ $tiny := $src.Resize $tinyw }}
-  {{ $small := $src.Resize $smallw }}
-  {{ $medium := $src.Resize $mediumw }}
-  {{ $large := $src.Resize $largew }}
-{{ end }}
+
+{{ $tiny := $src.Resize $tinyw }}
+{{ $small := $src.Resize $smallw }}
+{{ $medium := $src.Resize $mediumw }}
+{{ $large := $src.Resize $largew }}
 
 {{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
 {{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
