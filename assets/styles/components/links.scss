@@ -68,7 +68,7 @@ html[data-theme='dark'] {
     }
   }
   a.header-anchor {
-    color: get-dark-color('heading-color');
+    color: get-dark-color('text-color-footer');
     i,
     svg {
       color: get-dark-color('text-color');
