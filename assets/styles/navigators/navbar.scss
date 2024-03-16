@@ -4,11 +4,14 @@
   background: rgba(get-light-color('accent-color'), 0.1);
   @include transition();
 
-  @if $theme == 'dark' {
-    color: get-dark-color('accent-color') !important;
-    border-bottom: 2px solid get-dark-color('accent-color') !important;
-    background: rgba(get-dark-color('accent-color'), 0.1);
-  }
+}
+
+@mixin nav-item-hover-effect-dark($theme: 'dark') {
+  color: get-dark-color('accent-color') !important;
+  border-bottom: 2px solid get-dark-color('accent-color') !important;
+  background: rgba(get-dark-color('accent-color'), 0.1);
+  @include transition();
+
 }
 
 .top-navbar {
@@ -24,7 +27,7 @@
   
   text-align: center;
   //background-color: get-light-color('bg-primary');
-  background: linear-gradient(90deg, #FFAC7A, #FEB38F);
+  background: linear-gradient(90deg, #FDA87C, #ffffff);
   @include transition();
 
   .navbar-brand {
@@ -32,7 +35,7 @@
     
     font-weight: 600;
     color: transparent;
-    background: linear-gradient(90deg, #FFA500, #440244);
+    background: linear-gradient(90deg, #4a438f, #440244);
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 24px;
@@ -59,7 +62,7 @@
   li {
     a {
       //color: get-light-color('heading-color');
-      color: #180124;
+      color: #24011b;
       text-decoration: none !important;
       font-weight: 500;
       @include transition();
@@ -74,6 +77,8 @@
   .navbar-nav .active {
     @include nav-item-hover-effect();
   }
+  
+  
 
   #top-navbar-divider {
     margin-top: 10px;
@@ -98,7 +103,7 @@
 
       a {
         color: get-light-color('accent-color') !important;
-
+        
         &:hover {
           @include nav-item-hover-effect();
         }
@@ -123,6 +128,7 @@
       .navbar-nav {
         .active {
           color: get-light-color('accent-color');
+         
         }
         a:hover {
           color: get-light-color('accent-color');
@@ -133,7 +139,7 @@
 
   &.transparent-navbar {
     
-    background: linear-gradient(90deg, #FFAC7A, #FEB38F);
+    background: linear-gradient(90deg, #FDA87C, #ffffff);
     color: transparent;
 
     .navbar-brand {
@@ -233,9 +239,17 @@ html[data-theme='dark'] {
   .top-navbar {
     //color: get-dark-color('heading-color');
     //background-color: get-dark-color('bg-primary');
-    background: linear-gradient(90deg, #FFAC7A, #FEB38F);
+    background: linear-gradient(90deg, #221b15, #221b15);
     color: transparent;
 
+    // .navbar-nav .active {
+    //  @include nav-item-hover-effect();
+    //   &:hover,  &.active:hover {
+    //       color: get-dark-color('accent-color') !important;
+    //       /* Defina a cor branca desejada */
+    //     }
+
+    //   }
 
     .navbar-brand {
       //color: get-dark-color('heading-color');
@@ -254,23 +268,36 @@ html[data-theme='dark'] {
 
     li {
       a {
-        //color: get-dark-color('heading-color');
-        color: #180124;
+        color: get-dark-color('heading-color');
+        
+        
+        
       }
     }
 
+    .navbar-nav .active {
+      //@include nav-item-hover-effect-dark();
+     // background-color: get-dark-color('muted-text-color');
+      background-color: #3b3024;
+      color: #13013b;
+    }
+
+
     #top-navbar-divider {
-      background-color: get-dark-color('muted-text-color');
+      background-color: get-dark-color('muted-text-color'); 
+      
     }
 
     .dropdown-menu {
       box-shadow: $box-shadow;
       background-color: get-dark-color('bg-card');
       border: 1px solid rgba(get-dark-color('accent-color'), 0.1);
+      
 
       &.show {
         a {
-          color: get-dark-color('heading-color') !important;
+          color: get-dark-color('accent-color') !important;
+          
         }
       }
     }
@@ -282,25 +309,36 @@ html[data-theme='dark'] {
 
         li {
           a {
-            //color: get-dark-color('heading-color');
-            color: #ab86be;
+            color: get-dark-color('heading-color');
+            
           }
         }
         .navbar-nav {
           .active {
-            color: get-dark-color('accent-color');
+            //color: get-dark-color('accent-color');
+            //@include nav-item-hover-effect-dark();
+            color: #000;
           }
           a:hover {
-            color: get-dark-color('accent-color');
+            //color: get-dark-color('accent-color');
+            //@include nav-item-hover-effect-dark();
+            color: #000;
           }
         }
       }
     }
 
+
+
     &.transparent-navbar {
+      background: linear-gradient(190deg, #FDA87C, #ffffff);
+      //color: transparent;
+
+
+
       .navbar-brand {
         //color: get-dark-color('text-color');
-        color: transparent;
+        //color: transparent;
         background: linear-gradient(90deg, #440244, #FFA500);
         -webkit-background-clip: text;
         background-clip: text;
