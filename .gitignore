@@ -1,2 +1,13 @@
 resources/*
 node_modules/*
+content/posts/AWS/*
+content/posts/blog/*
+content/posts/Cloud/*
+content/posts/ConcursoPublico/*
+content/posts/data-engineer/*
+content/posts/dataops/*
+content/posts/devops/*
+content/posts/markdown-sample/*
+content/posts/produtividade/*
+content/posts/programming/*
+content/posts/shortcodes/*
