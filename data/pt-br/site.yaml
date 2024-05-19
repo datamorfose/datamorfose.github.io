@@ -5,7 +5,7 @@ copyright: © 2024 Copyright.
 disclaimer: "testdde"
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: জন ডো এর বাক্তিগত পোর্টফোলিও ও ব্লগ.
+description: Onde os dados nos transformam.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -15,8 +15,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Doc
+  title: Datamorfose
   type: website
-  description: জন ডো এর বাক্তিগত পোর্টফোলিও ও ব্লগ.
+  description: Onde os dados nos transformam.
   image: images/author/datamorfose.png
   url: https://hugo-toha.github.io
