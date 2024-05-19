@@ -1,0 +1,39 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Data Engineering"
+  filter: "dataengineering"
+- name: "AWS"
+  filter: "aws"
+- name: Information
+  filter: "information"
+
+# your publications
+publications:
+- title: AWS Certified Data Engineer - Minha experiência com o exame beta
+  publishedIn:
+    name: Medium
+    date: 10 May 2024
+    url: https://medium.com/@nobrelu/aws-certified-data-engineer-minha-experiência-no-exame-beta-1c0d5df02eae
+  authors:
+  - name: Luciana Nobre
+    url: https://example.com
+
+  paper:
+    summary: Detalha a experiência de obtenção da certificação AWS Certified Data Engineer — Associate (DEA-C01) pelo exame beta, destacando motivações, desafios, estratégias de preparação e dicas práticas. Analisa a complexidade do exame, enfatizando a importância do conhecimento prático e teórico dos serviços AWS e dos princípios de engenharia de dados. Inclui recomendações de estudo para diferentes níveis de experiência, oferecendo uma visão abrangente e detalhada para ajudar candidatos a se prepararem adequadamente e obterem sucesso na certificação e na carreira de engenharia de dados na nuvem da AWS.
+    url: https://medium.com/@nobrelu/aws-certified-data-engineer-minha-experiência-no-exame-beta-1c0d5df02eae
+  categories: ["dataengineering","aws"]
+  tags: ["Engenharia de Dados", "AWS", "Certificação"]
+
+

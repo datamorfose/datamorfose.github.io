@@ -11,36 +11,28 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: 'AWS Certified: Data Engineer – Associate'
+  timeline: "Jan 2024 - Feb 2027"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: Amazon Web Services (AWS)
+    url: https://aws.amazon.com
+  courseOverview: This certification helped me understand and validate the knowledge I've acquired. As it was a beta exam, lacking preparatory courses and with uncertainty about which topics to study, it provided an opportunity to assess my strengths and areas for improvement within the context of Data Engineering and data service integration in AWS. I was able to explore various data scenarios, focusing mainly on implementations, monitoring, and solutions for data pipelines, requiring an understanding of factors such as cost, operational effort, and performance. 
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
-  organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+  certificateURL: "https://www.credly.com/badges/69a204e6-2325-47f9-b3ec-ff75887bda8c"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Data Engineer Degree"
+  timeline: "Jun 2022 - Fev 2024"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Data Science Academy
+    url: https://www.datascienceacademy.com.br/bundle/formacao-engenheiro-de-dados-4
+  courseOverview: "Over 300 hours of training in data engineering, where I developed practical and theoretical skills in topics such as: Data Warehouse Design and Implementation, Data Lake Design, Project, and Integration, Data Security and High Availability, Machine Learning and AI in distributed environments, and Analytics, Visualizations, and Reporting for decision-making with Big Data. Additionally, within this training, I had the opportunity to experiment with and practice various data tools and services such as: Docker, Postgres, Apache Hadoop, Apache Nifi, Apache Kafka, AWS Lake Formation, Amazon EMR, CDC, Dremio, Airbyte, Databricks, BigQuery, Apache Spark, Airflow, Snowflake, ElasticSearch, Scala, Cassandra, MongoDB, Azure Data Factory, and Power BI."
+  certificateURL: "https://www.linkedin.com/posts/luciana-nobre_engenhariadedados-dataengineer-aprendizadocontaednuo-activity-7165469809344667648-OJJv"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: Other certifications and licenses
+  timeline: "Jan 2013 - Present"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
- 
+    name: All
+    url: https://www.linkedin.com/in/luciana-nobre/details/certifications/
+  courseOverview: Other certifications and licenses acquired during my continuous learning.
+  certificateURL: "https://www.linkedin.com/in/luciana-nobre/details/certifications/"
 

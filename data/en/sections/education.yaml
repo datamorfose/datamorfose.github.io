@@ -10,81 +10,59 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+- name: Data Science Postgraduate Certificate
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2023-2024
   institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
+    name: Descomplica University
+    url: "https://descomplica.com.br/pos-graduacao"
+  publications: #(optional)
+    - title: Pitch Case IntelliBean Transform Your Harvest, Quality, and Market with InteliBean. The Coffee of the Future is Here.
+      url: "https://youtu.be/osQzZJ1fr34"
+- name: Full Stack Development Postgraduate Certificate
+  icon: fa-university
+  timeframe: 2023-2024
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Descomplica University
+    url: "https://descomplica.com.br/pos-graduacao"
+  publications: #(optional)
+    - title: Pitch Case CoffeeConnection Facilitating the Connection Between Producers and Consumers, Transforming Beans into Experiences.
+      url: "https://youtu.be/w4I_zlXyj38"
+- name: Data Analysis, Information Technology Postgraduate Certificate
+  icon: fa-university
+  timeframe: 2021-2022
+  institution:
+    name: Descomplica University
+    url: "https://descomplica.com.br/pos-graduacao"
+  publications: #(optional)
+    - title: Pitch Case iCoffee Traceability and Quality in Your Coffee Cultivation
+      url: "https://youtu.be/_dmlJEEhaBc"
+- name: MBA in Big Data and Competitive Intelligence, Information Technology Postgraduate Degree
+  icon: fa-university
+  timeframe: 2021-2022
+  institution:
+    name: Descomplica University
+    url: "https://descomplica.com.br/pos-graduacao"
+  publications: #(optional)
+    - title: Pitch Case IrrigaTech Smart Irrigation in Your Farm
+      url: "https://youtu.be/OXbgf0xIQZs"
+
+- name: Postgraduate Specialization in Information Security
+  icon: fa-university
+  timeframe: 2018-2019
+  institution:
+    name: Estácio University
+    url: "https://estacio.br/cursos/pos-graduacao"
+  publications: #(optional)
+    - title: The Importance of Information Security for Compliance with the General Data Protection Law (LGPD).
+      url: "#"
+    
+- name: Degree, Archival Science
+  icon: fa-graduation-cap
+  timeframe: 2013-2016
+  institution:
+    name: Federal University of the State of Rio de Janeiro
+    url: "https://www.unirio.br"
+  publications: #(optional)
+    - title: Information Security and the Authenticity of Digital Archival Documents.
+      url: "#"

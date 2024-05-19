@@ -1,13 +1,15 @@
 # some information about you
 name: "Datamorfose"
 nickname: "Datamorfose"
+nameintro: "Olá, sou"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Boas-vindas ao"
 image: "images/author/datamorfose.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  ইমেইল: "johndoe@example.com"
-  ফোন: "+0123456789"
+  email: "contato.datamorfose@gmail.com"
+  linkedin: datamorfose
+
 
 # some summary about what you do
 summary:

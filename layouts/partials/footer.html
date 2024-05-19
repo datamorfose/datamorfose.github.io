@@ -108,7 +108,7 @@
               {{ else if (eq $key "phone") }}
                 <li><span><i class="fas fa-phone-alt"></i></span> <span>{{ $value }}</span></li>
               {{ else if (eq $key "linkedin") }}
-                <li><a href={{ printf "https://www.linkedin.com/in/%s" $value }} target="_blank" rel="noopener">
+                <li><a href={{ printf "https://www.linkedin.com/%s" $value }} target="_blank" rel="noopener">
                   <span><i class="fab fa-linkedin"></i></span> <span>{{ $author.name }}</span>
                 </a></li>
               {{ else if (eq $key "github") }}

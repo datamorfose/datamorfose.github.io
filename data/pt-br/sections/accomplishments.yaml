@@ -11,35 +11,26 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: 'AWS Certified: Data Engineer – Associate'
+  timeline: "Jan 2024 - Feb 2027"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: এই কোর্সটি মূল ধারণাগুলি যেমন নেটওয়ার্কিং, স্টোরেজ, সুরক্ষা, রক্ষণাবেক্ষণ, লগিং এবং পর্যবেক্ষণ, অ্যাপ্লিকেশন জীবনচক্র, সমস্যা সমাধান, এপিআই অবজেক্ট আদিম ইত্যাদি বুঝতে সহায়তা করে এটি শেষ ব্যবহারকারীদের জন্য বেসিক ব্যবহারের ক্ষেত্রে প্রতিষ্ঠার দক্ষতা বৃদ্ধি করতে সহায়তা করে।
-  certificateURL: "https://example.com"
+    name: Amazon Web Services (AWS)
+    url: https://aws.amazon.com
+  courseOverview: Essa certificação me ajudou a entender e certificar meus conhecimentos. Por se tratar de um exame beta, sem cursos preparatórios mais a incerteza de quais tópicos estudar, foi uma oportunidade de avaliar meus pontos fortes e a melhorar dentro do contexto de Engenharia de dados e integração de serviços de dados na AWS, onde pude explorar diferentes cenários de dados, com foco principalmente em implementações, monitoramento e soluções para pipelines de dados, exigindo a compreensão de fatores como custo, esforço operacional e performance.
+  certificateURL: "https://www.credly.com/badges/69a204e6-2325-47f9-b3ec-ff75887bda8c"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Formação Engenheiro de Dados
+  timeline: "Jun 2022 - Fev 2024"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "এই কোর্সটি মেশিন লার্নিং, ডেটামিনিং এবং স্ট্যাটিস্টিকাল প্যাটার্ন স্বীকৃতি সম্পর্কিত একটি বিস্তৃত ভূমিকা সরবরাহ করে। বিষয়গুলির মধ্যে রয়েছে: (i) তত্ত্বাবধানে পড়াশুনা (প্যারামেট্রিক / নন-প্যারামেট্রিক অ্যালগোরিদম, ভেক্টর মেশিন, কর্নেল, নিউরাল নেটওয়ার্ক সমর্থন)। (ii) নিরীক্ষণযোগ্য শিখন (গুচ্ছকরণ, মাত্রিকতা হ্রাস, সুপারিশকারী সিস্টেম, গভীর শিক্ষা)। (iii) মেশিন লার্নিংয়ের সেরা অনুশীলনগুলি (পক্ষপাত / বৈকল্পিক তত্ত্ব; মেশিন লার্নিংয়ে নতুনত্ব প্রক্রিয়া এবং এআই)।"
-  certificateURL: "https://example.com"
+    name: Data Science Academy
+    url: https://www.datascienceacademy.com.br/bundle/formacao-engenheiro-de-dados-4
+  courseOverview: "Mais de 300 horas de formação para engenharia de dados, onde pude desenvolver habilidades práticas e teóricas a cerca dos tópicos: Design e Implementação de Data Warehouse, Data Lake - Design, Projeto e Integração, Segurança e Alta Disponibilidade de Dados, Machine Learning e IA em ambientes distribuídos, e Analitycs, Visualizações e relatórios e tomada de decisões com Big Data. Além disso, dentro dessa formação, pude experimentar e praticar ferramentas e serviços de dados como: Docker, Postgres, Apache Hadoop, Apache Nifi, Apache Kafka, AWS Lake Formation, Amazon EMR, CDC, Dremio, Airbyte, Databricks, BigQuery, Apache Spark, Snowflake, Airflow, ElasticSearch, Scala, Cassandra, MongoDB, Azure Data Factory e Power BI."
+  certificateURL: "https://www.linkedin.com/posts/luciana-nobre_engenhariadedados-dataengineer-aprendizadocontaednuo-activity-7165469809344667648-OJJv"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Outras certificações e licenças
+  timeline: "Jan 2013 - Presente"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: এই কোর্সটি এসডিআইগুলিতে দক্ষতা অর্জনের জন্য একটি সম্পূর্ণ গাইড। এটি গুগল, ফেসবুক, মাইক্রোসফ্ট এবং অ্যামাজনে কাজ করা পরিচালকদের নিয়োগের মাধ্যমে তৈরি করা হয়েছে। আমরা সাবধানতার সাথে এমন একটি সেট নির্বাচন করেছি যা কেবল শীর্ষ সংস্থাগুলিতে বারবার জিজ্ঞাসা করা হয়নি, তবে কোনও সিস্টেম ডিজাইনের সমস্যা হ্যান্ডেল করার জন্য একটি বিশদ অভিজ্ঞতা সরবরাহ করে।
-  certificateURL: "https://example.com"
-
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
-  organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: প্রতিক্রিয়াশীল এবং উচ্চ কার্যকারিতা সফ্টওয়্যার কীভাবে তৈরি করবেন তা আবিষ্কার করুন। গোলংয়ের সাথে এমন প্রোগ্রামগুলি বিকাশ করুন যা অত্যন্ত সামঞ্জস্যপূর্ণ এবং সমান্তরাল। আরও উন্নত, বহুগঠনের বিষয়গুলির সাথে গোতে আপনার প্রোগ্রামিং দক্ষতা উন্নত করুন।
-  certificateURL: "https://example.com"
- 
+    name: Todas
+    url: https://www.linkedin.com/in/luciana-nobre/details/certifications/
+  courseOverview: Outras certificações e licenças recebidas durante minha aprendizagem constante.
+  certificateURL: "https://www.linkedin.com/in/luciana-nobre/details/certifications/"

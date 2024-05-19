@@ -12,71 +12,27 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Data Engineering"
+  filter: "dataengineering"
+- name: "AWS"
+  filter: "aws"
+- name: Information
+  filter: "information"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: AWS Certified Data Engineer - My Experience with the Beta Exam
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Medium
+    date: 10 May 2024
+    url: https://medium.com/@nobrelu/aws-certified-data-engineer-minha-experiência-no-exame-beta-1c0d5df02eae
   authors:
-  - name: Dr. Madman
+  - name: Luciana Nobre
     url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
 
-- title: An Sample Paper on Image Processing
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: It details the experience of obtaining the AWS Certified Data Engineer — Associate (DEA-C01) certification through the beta exam, highlighting motivations, challenges, preparation strategies, and practical tips. It analyzes the complexity of the exam, emphasizing the importance of practical and theoretical knowledge of AWS services and data engineering principles. It includes study recommendations for different experience levels, providing a comprehensive and detailed overview to help candidates adequately prepare and succeed in the certification and in their data engineering careers in the AWS cloud.
+    url: https://medium.com/@nobrelu/aws-certified-data-engineer-minha-experiência-no-exame-beta-1c0d5df02eae
+  categories: ["dataengineering","image-processing"]
+  tags: ["Data Engineering", "AWS", "Certification"]
 
-- title: An Example Paper on Security
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
