@@ -116,10 +116,10 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     courses:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:

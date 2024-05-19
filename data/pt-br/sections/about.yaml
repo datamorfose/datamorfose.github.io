@@ -8,47 +8,45 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Engenheira de Dados
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Datamorfose.
+  url: "https://www.datamorfose.com.br"
 
 
 # a summary about you
-summary: 'আমি X বছর অভিজ্ঞতা সম্পন্ন একজন দক্ষ সফটওয়্যার ইঞ্জিনিয়ার । আমি Go ভাষা ব্যবহার  করে [Kubernetes](https://kubernetes.io/) এর জন্য ওপেন সোর্স টুল তৈরি করি । মাঝে মাঝে আমি থিম বানানোর মত মজার প্রোজেক্ট নিয়ে কাজ করি ।'
+summary: 'Sou engenheira de dados, com experiência em python, arquiteturas e modelagens de dados, com conhecimento de processamento de dados distribuídos, implantação de pipelines, ferramentas de dados Cloud AWS e viés analítico. O Datamorfose nasceu com o intuito de compartilhar conhecimento e motivar o aprendizado contínuo. Através da minha experiência e oportunidades, irei compartilhar conteúdos sobre o mundo dos dados. Atualmente, atuo como Engenheira de Dados no mercado financeiro e participei de grandes projetos de migração de infraestrutura e produtos de dados, desenvolvimento, automação e manutenção de pipelines de dados, entre outros.Te convido a visitar o blog e embarcar nessa jornada de aprendizado constante comigo!'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "contato.datamorfose@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/example"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+- name: Medium
+  icon: "fab fa-medium"
+  url: "https://medium.com/@datamorfose"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/luciana-nobre/"
 
-- name: Twitter
+- name: X-Twitter
   icon: "fab fa-twitter"
-  url: "#"
+  url: "https://x.com/datamorfose"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "আমার জীবনবৃত্তান্ত"
+- title: "Meu currículo"
   url: "files/resume.pdf"
 
 # Show your badges
@@ -56,39 +54,36 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: AWS Certified Data Engineer
+  url: "https://www.credly.com/badges/69a204e6-2325-47f9-b3ec-ff75887bda8c"
+  badge: "https://images.credly.com/size/340x340/images/e5c85d7f-4e50-431e-b5af-fa9d9b0596e7/image.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  name: AWS Certified Solutions Architect – Associate
+  url: "https://www.credly.com/badges/e4cbd548-96f1-4546-b47d-747fc368f111"
+  badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: AWS Certified Cloud Practitioner
+  url: "https://www.credly.com/badges/bd912035-c18d-47a9-ac54-498211e9ff24"
+  badge: "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
 
 - type: soft-skill-indicator
-  name: Leadership
+  name: Capacidade Analítica
   percentage: 95
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Comunicação
   percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
+  name: Dedicação
+  percentage: 95
   color: orange
 
-- type: soft-skill-indicator
-  name: teste
-  percentage: 65
-  color: orange
+
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
